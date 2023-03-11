@@ -1,2 +1,2 @@
-# alicino.github.io
-My website - hello world!
+# alicino.github.io => alicino.me
+Links to my profile, codes, and dashboards.
