@@ -82,13 +82,26 @@ html {
 }
 
 .positions ul li {
-    margin-bottom: 10px;
-    align-content: center;
-}
-
-.positions ul li img a {
+    margin-bottom: 2px;
+    /* border-bottom: 1px solid red;  #linha divisória temporária */
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.positions ul li p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #262626;
+    margin-top: 55px;
+    margin-bottom: 8px;
+}
+
+.positions ul li img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
 
 .container div:nth-child(5) img {

@@ -32,8 +32,8 @@
         </div>
         <div>
             <!-- 3 -->
-            <h2><p>Solutions Engineer | Project Manager | Data Science</p>
-            <p>Business Intelligence | Python | Linux</p></h2>
+            <h2><p>Solutions Engineer | Cybersecurity | Project Manager</p>
+            <p>Data Science | Business Intelligence | Python | Linux</p></h2>
         </div>
         <div>
             <!-- 4 -->
@@ -41,6 +41,10 @@
         <div class="positions">
             <!-- 5 <br> -->
             <ul>
+                <li>
+                    <img src="/assets/img/blog_64x64.png" alt="My Blog">
+                    <a href="https://alicino.me/blog" target="_blank" rel="noopen noreferrer">My Blog</a>
+                </li>
                 <li>
                     <img src="/assets/img/github-50.png" alt="GitHub">
                     <a href="https://github.com/alicino" target="_blank" rel="noopen noreferrer">GitHub</a>
@@ -60,17 +64,33 @@
                     <img src="/assets/img/salesforce-50.png" alt="Salesforce">
                     <a href="https://trailblazer.me/id/alicino" target="_blank" rel="noopen noreferrer">Salesforce Trailblazer</a>
                 </li>
+                <li>
+                    <img src="/assets/img/circled-envelope-50.png" alt="">
+                    <a id="email-link">E-mail</a>  
+                </li>
+
+                <li>
+                    <p>&copy; All Rights Reserved (2023)</p>
+                </li>
             </ul>
-            <!-- <br> -->
-            <p>
-                <img src="/assets/img/circled-envelope-50.png" alt="">
-                <a href="mailto:alicino.usa@gmail.com">E-mail</a>
-            </p>
         </div>
         <div>
             <!-- 6  -->
-            <p>&copy; All Rights Reserved (2023)</p>
+            <p></p>
         </div>
     </div>
+    <!-- JS de correio eletronico -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          // Email coded Base64
+          const encodedEmail = "Y29udGFjdEBhbGljaW5vLm1l";
+          // Decode
+          const decodedEmail = atob(encodedEmail);
+          // Apply in link
+          const link = document.getElementById("email-link");
+          link.href = "mailto:" + decodedEmail;
+          link.textContent = "E-mail";
+        });
+      </script>
 </body>
 </html>
