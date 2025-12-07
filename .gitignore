@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Thumbnails
+._*
+
+# Node (caso use no futuro)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+*.tmp
+*.swp
+
+# VS Code
+.vscode/
+
+# JetBrains / WebStorm
+.idea/
+
+# Python (caso adicione scripts)
+__pycache__/
+*.pyc
+
+# Build / Cache
+dist/
+build/
+.cache/
+
+# Jekyll (caso use para GitHub Pages no futuro)
+_site/
+.sass-cache/
+
+# Environment / Credentials (boa prática)
+.env
+.env.local
+.env.*.local
+
+# System files
+Thumbs.db
+desktop.ini
